@@ -1,5 +1,7 @@
-import React, {Component, useState} from "react";
-import "./../styles/App.css";
+// App.js
+import React, { useState } from 'react';
+
+function App() {
   // State to manage the visibility of the paragraph
   const [isVisible, setIsVisible] = useState(false);
 
@@ -7,7 +9,7 @@ import "./../styles/App.css";
   const handleClick = () => {
     setIsVisible(true);
   };
-function App() {
+
   return (
     <div>
       {/* Button with ID 'click' */}
